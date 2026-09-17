@@ -1,6 +1,6 @@
 # STOP WINDOWS AUTO UPDATE
 
-A simple Windows CMD script that blocks automatic Windows Update downloads and installs by applying Windows Update policy settings and disabling related update services.
+Disables automatic Windows Update downloads and blocks Windows from connecting to Microsoft Windows Update servers using policy and service settings.
 
 ## Usage
 
@@ -29,6 +29,6 @@ The script:
 
 Run the script as Administrator.
 
-Windows feature upgrades, repair installs, policy changes, or future Windows servicing changes can potentially overwrite update settings. Re-run the script if Windows restores automatic update behavior.
+This is designed to stop normal automatic Windows Update downloading and installation. It is not a guarantee that Windows can never change these settings. Major Windows upgrades, repair installs, administrator or organization policies, or future servicing changes can overwrite them. If Windows restores automatic update behavior, run the script again.
 
-Disabling Windows Update also stops automatic security and reliability updates, so only use this if you intend to manage updates manually.
+Disabling Windows Update also stops automatic security and reliability updates, so use this only if you intend to manage updates manually.
